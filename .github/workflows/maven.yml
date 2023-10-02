@@ -43,5 +43,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: luccahiratsuca/partida-05-ci:{$GITHUB_SHA}
+        tags: luccahiratsuca/partida-05-ci:${{ github.sha }}
         
